@@ -19,8 +19,6 @@
 #include <fstream>
 #include <filesystem>
 
-
-
 namespace fs = std::filesystem;
 
 using std::string;
