@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\runscrim.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\runscrim.dir/objects.a @CMakeFiles\runscrim.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE  -g -Wall -pedantic -Wuninitialized -Werror -std=c++17  -g -Wl,--whole-archive CMakeFiles\runscrim.dir/objects.a -Wl,--no-whole-archive -o runscrim.exe -Wl,--out-implib,librunscrim.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\runscrim.dir\linkLibs.rsp
