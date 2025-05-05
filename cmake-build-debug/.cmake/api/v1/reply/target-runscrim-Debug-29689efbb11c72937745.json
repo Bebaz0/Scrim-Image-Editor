@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tester.exe"
+			"path" : "runscrim.exe"
 		},
 		{
-			"path" : "tester.pdb"
+			"path" : "runscrim.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 41,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 35,
+				"line" : 32,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/limaa/Downloads/project 14.08/include"
+					"path" : "C:/Users/Daniel/CLionProjects/Projeto_14.08/include"
 				}
 			],
 			"language" : "CXX",
@@ -80,7 +80,7 @@
 			]
 		}
 	],
-	"id" : "tester::@6890427a1f51a3e7e1df",
+	"id" : "runscrim::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -105,8 +105,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "tester",
-	"nameOnDisk" : "tester.exe",
+	"name" : "runscrim",
+	"nameOnDisk" : "runscrim.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -204,7 +204,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main/Tester.cpp",
+			"path" : "main/RunScrim.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

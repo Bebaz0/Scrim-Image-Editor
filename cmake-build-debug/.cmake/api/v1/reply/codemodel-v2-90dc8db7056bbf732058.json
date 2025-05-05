@@ -50,14 +50,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "runscrim::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-runscrim-Debug-0ed784a73f5e69523e15.json",
+					"jsonFile" : "target-runscrim-Debug-29689efbb11c72937745.json",
 					"name" : "runscrim",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "tester::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tester-Debug-035f617d8e96714e0496.json",
+					"jsonFile" : "target-tester-Debug-0a17d06e067004e530f7.json",
 					"name" : "tester",
 					"projectIndex" : 0
 				}
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/limaa/Downloads/project 14.08/cmake-build-debug",
-		"source" : "C:/Users/limaa/Downloads/project 14.08"
+		"build" : "C:/Users/Daniel/CLionProjects/Projeto_14.08/cmake-build-debug",
+		"source" : "C:/Users/Daniel/CLionProjects/Projeto_14.08"
 	},
 	"version" : 
 	{
