@@ -21,6 +21,8 @@ file(GLOB_RECURSE SOURCES_BASE CONFIGURE_DEPENDS "src/*.cpp")
 add_executable(runscrim
         ${SOURCES_BASE}
         main/RunScrim.cpp
+        include/Command/Invert.hpp
+        src/Command/Invert.cpp
 )
 
 # Create tester executable

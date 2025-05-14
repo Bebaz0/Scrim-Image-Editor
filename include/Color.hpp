@@ -29,7 +29,7 @@ namespace prog {
         rgb_value &blue();
 
     private:
-        rgb_value red_,blue_,green_; //variaveis de uma cor
+        rgb_value red_ ,green_,blue_; //variaveis de uma cor
     };
 }
 
