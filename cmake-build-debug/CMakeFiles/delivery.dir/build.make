@@ -75,6 +75,7 @@ delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Command/Blank.cpp
 delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Command/Invert.cpp
 delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Command/Open.cpp
 delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Command/Save.cpp
+delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Command/to_gray_scale.cpp
 delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Image.cpp
 delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Logger.cpp
 delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/PNG.cpp
@@ -82,7 +83,7 @@ delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Scrim.cpp
 delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/ScrimParser.cpp
 delivery.zip: /home/danielramaa/Documents/Projeto_14.08/src/Utils.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/danielramaa/Documents/Projeto_14.08/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Creating zip archive: /home/danielramaa/Documents/Projeto_14.08/cmake-build-debug/delivery.zip"
-	cd /home/danielramaa/Documents/Projeto_14.08 && /snap/clion/341/bin/cmake/linux/x64/bin/cmake -E tar cf /home/danielramaa/Documents/Projeto_14.08/cmake-build-debug/delivery.zip --format=zip /home/danielramaa/Documents/Projeto_14.08/include /home/danielramaa/Documents/Projeto_14.08/src/Color.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/Blank.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/Invert.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/Open.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/Save.cpp /home/danielramaa/Documents/Projeto_14.08/src/Image.cpp /home/danielramaa/Documents/Projeto_14.08/src/Logger.cpp /home/danielramaa/Documents/Projeto_14.08/src/PNG.cpp /home/danielramaa/Documents/Projeto_14.08/src/Scrim.cpp /home/danielramaa/Documents/Projeto_14.08/src/ScrimParser.cpp /home/danielramaa/Documents/Projeto_14.08/src/Utils.cpp
+	cd /home/danielramaa/Documents/Projeto_14.08 && /snap/clion/341/bin/cmake/linux/x64/bin/cmake -E tar cf /home/danielramaa/Documents/Projeto_14.08/cmake-build-debug/delivery.zip --format=zip /home/danielramaa/Documents/Projeto_14.08/include /home/danielramaa/Documents/Projeto_14.08/src/Color.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/Blank.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/Invert.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/Open.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/Save.cpp /home/danielramaa/Documents/Projeto_14.08/src/Command/to_gray_scale.cpp /home/danielramaa/Documents/Projeto_14.08/src/Image.cpp /home/danielramaa/Documents/Projeto_14.08/src/Logger.cpp /home/danielramaa/Documents/Projeto_14.08/src/PNG.cpp /home/danielramaa/Documents/Projeto_14.08/src/Scrim.cpp /home/danielramaa/Documents/Projeto_14.08/src/ScrimParser.cpp /home/danielramaa/Documents/Projeto_14.08/src/Utils.cpp
 
 CMakeFiles/delivery.dir/codegen:
 .PHONY : CMakeFiles/delivery.dir/codegen

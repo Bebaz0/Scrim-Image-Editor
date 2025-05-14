@@ -23,12 +23,16 @@ add_executable(runscrim
         main/RunScrim.cpp
         include/Command/Invert.hpp
         src/Command/Invert.cpp
+        include/Command/to_gray_scale.hpp
+        src/Command/to_gray_scale.cpp
 )
 
 # Create tester executable
 add_executable(tester
         ${SOURCES_BASE}
         main/Tester.cpp
+        include/Command/to_gray_scale.hpp
+        src/Command/to_gray_scale.cpp
 )
 
 target_include_directories(runscrim PRIVATE

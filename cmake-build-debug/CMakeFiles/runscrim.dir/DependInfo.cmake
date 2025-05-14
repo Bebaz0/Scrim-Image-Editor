@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/danielramaa/Documents/Projeto_14.08/src/Command/Invert.cpp" "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o.d"
   "/home/danielramaa/Documents/Projeto_14.08/src/Command/Open.cpp" "CMakeFiles/runscrim.dir/src/Command/Open.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/Open.cpp.o.d"
   "/home/danielramaa/Documents/Projeto_14.08/src/Command/Save.cpp" "CMakeFiles/runscrim.dir/src/Command/Save.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/Save.cpp.o.d"
+  "/home/danielramaa/Documents/Projeto_14.08/src/Command/to_gray_scale.cpp" "CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o.d"
   "/home/danielramaa/Documents/Projeto_14.08/src/Image.cpp" "CMakeFiles/runscrim.dir/src/Image.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Image.cpp.o.d"
   "/home/danielramaa/Documents/Projeto_14.08/src/Logger.cpp" "CMakeFiles/runscrim.dir/src/Logger.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Logger.cpp.o.d"
   "/home/danielramaa/Documents/Projeto_14.08/src/PNG.cpp" "CMakeFiles/runscrim.dir/src/PNG.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/PNG.cpp.o.d"

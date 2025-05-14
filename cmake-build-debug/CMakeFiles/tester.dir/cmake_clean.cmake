@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Command/Open.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/Save.cpp.o"
   "CMakeFiles/tester.dir/src/Command/Save.cpp.o.d"
+  "CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o"
+  "CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o.d"
   "CMakeFiles/tester.dir/src/Image.cpp.o"
   "CMakeFiles/tester.dir/src/Image.cpp.o.d"
   "CMakeFiles/tester.dir/src/Logger.cpp.o"

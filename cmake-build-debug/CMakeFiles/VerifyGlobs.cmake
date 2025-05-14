@@ -11,6 +11,7 @@ set(OLD_GLOB
   "/home/danielramaa/Documents/Projeto_14.08/src/Command/Invert.cpp"
   "/home/danielramaa/Documents/Projeto_14.08/src/Command/Open.cpp"
   "/home/danielramaa/Documents/Projeto_14.08/src/Command/Save.cpp"
+  "/home/danielramaa/Documents/Projeto_14.08/src/Command/to_gray_scale.cpp"
   "/home/danielramaa/Documents/Projeto_14.08/src/Image.cpp"
   "/home/danielramaa/Documents/Projeto_14.08/src/Logger.cpp"
   "/home/danielramaa/Documents/Projeto_14.08/src/PNG.cpp"
