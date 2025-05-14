@@ -3,23 +3,23 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES_BASE at CMakeLists.txt:18 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/danielramaa/Documents/Projeto_14.08/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/*.cpp")
 set(OLD_GLOB
-  "/home/danielramaa/Documents/Projeto_14.08/src/Color.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Command.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Command/Blank.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Command/Invert.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Command/Open.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Command/Save.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Command/to_gray_scale.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Image.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Logger.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/PNG.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Scrim.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/ScrimParser.cpp"
-  "/home/danielramaa/Documents/Projeto_14.08/src/Utils.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Color.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Blank.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Invert.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Open.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Save.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/to_gray_scale.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Image.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Logger.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/PNG.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Scrim.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/ScrimParser.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Utils.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/danielramaa/Documents/Projeto_14.08/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/Daniel/CLionProjects/Projeto_14.08/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()
