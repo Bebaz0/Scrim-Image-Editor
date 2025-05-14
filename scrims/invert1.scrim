@@ -1,3 +1,0 @@
-open input/xkcd.png
-invert
-save output/invert1.png

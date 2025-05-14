@@ -1,5 +1,0 @@
-C:/Users/Daniel/CLionProjects/Projeto_14.08/cmake-build-debug/CMakeFiles/runscrim.dir
-C:/Users/Daniel/CLionProjects/Projeto_14.08/cmake-build-debug/CMakeFiles/tester.dir
-C:/Users/Daniel/CLionProjects/Projeto_14.08/cmake-build-debug/CMakeFiles/delivery.dir
-C:/Users/Daniel/CLionProjects/Projeto_14.08/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Daniel/CLionProjects/Projeto_14.08/cmake-build-debug/CMakeFiles/rebuild_cache.dir

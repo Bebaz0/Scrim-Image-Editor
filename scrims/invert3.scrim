@@ -1,3 +1,0 @@
-open input/dilbert.png
-invert
-save output/invert3.png

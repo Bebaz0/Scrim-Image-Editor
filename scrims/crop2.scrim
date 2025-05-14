@@ -1,3 +1,0 @@
-open input/dead-combo.png
-crop 299 0 100 150 
-save output/crop2.png

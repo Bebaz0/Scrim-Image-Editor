@@ -1,3 +1,0 @@
-open input/escher-hands.png
-h_mirror
-save output/h_mirror3.png

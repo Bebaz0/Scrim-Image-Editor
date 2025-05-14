@@ -1,3 +1,0 @@
-open input/mondrian.png
-rotate_right
-save output/rotate_right1.png

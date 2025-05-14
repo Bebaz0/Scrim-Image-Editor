@@ -1,3 +1,0 @@
-open input/lion.png
-resize 125 190 250 380
-save output/resize2.png
