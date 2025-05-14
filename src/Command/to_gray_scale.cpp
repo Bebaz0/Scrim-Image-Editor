@@ -19,6 +19,11 @@ namespace prog {
 
                     //trasnform each pixel to (v,v,v)
                     int v = (pixel.red() + pixel.green() + pixel.blue()) / 3;
+                    pixel.red() = v;
+                    pixel.green() = v;
+                    pixel.blue() = v;
+
+                    img->at(x, y) = pixel;
 
                 }
 
