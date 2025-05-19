@@ -27,6 +27,8 @@ add_executable(runscrim
         src/Command/to_gray_scale.cpp
         include/Command/Fill.hpp
         src/Command/Fill.cpp
+        include/Command/Add.hpp
+        src/Command/Add.cpp
 )
 
 # Create tester executable

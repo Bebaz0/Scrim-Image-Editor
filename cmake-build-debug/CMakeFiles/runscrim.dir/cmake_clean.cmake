@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/runscrim.dir/src/Color.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command.cpp.obj.d"
+  "CMakeFiles/runscrim.dir/src/Command/Add.cpp.obj"
+  "CMakeFiles/runscrim.dir/src/Command/Add.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Fill.cpp.obj"

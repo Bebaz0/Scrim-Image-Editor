@@ -5,27 +5,27 @@ using std::istream;
 
 namespace prog {
     Color::Color() : red_(0),green_(0),blue_(0){
-    } //Dá "reset" dos valores rgb da cor
+    } //"Resets" the rgb values of a color to 0 (becomes dark)
 
     Color::Color(const Color &other) :red_(other.red()),green_(other.green()),blue_(other.blue()){
-    } //Copia os valores rgb de uma cor
+    } //Copys the rgb values of a color to another
 
     Color::Color(rgb_value red, rgb_value green, rgb_value blue) : red_(red), green_(green), blue_(blue) {
-    } //Construtor
+    } //Constructor
 
     rgb_value Color::red() const {
         return red_;
-    } //Retorna o valor "red" da cor
+    } //Returns the red value
 
     rgb_value Color::green() const {
         return green_;
-    } //Retorna o valor "green" da cor
+    } //Returns de green value
 
     rgb_value Color::blue() const {
         return blue_;
-    } //Retorna o valor "blue" da cor
+    } //Returns the blue value
 
-    // TODO:Acho que é assim que deve ficar mas not sure yet é preciso verificar
+    //Returns as a refrence:
 
     rgb_value &Color::red() {
         return red_;

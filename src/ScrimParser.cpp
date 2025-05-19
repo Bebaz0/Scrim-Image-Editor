@@ -93,7 +93,7 @@ namespace prog {
         }
 
         if (command_name == "fill") {
-            return new command::fill();
+            return new command::Fill();
         }
 
         // TODO: implement cases for the new commands

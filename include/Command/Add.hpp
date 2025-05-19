@@ -1,18 +1,21 @@
 //
-// Created by Afonso Lima on 19/05/2025.
+// Created by limaa on 19/05/2025.
 //
 
-#ifndef FILL_H
-#define FILL_H
+#ifndef ADD_H
+#define ADD_H
 
 #include "Command.hpp"
 #include "Color.hpp"
+#include "Image.hpp"
+#include <string>
 
 namespace prog {
     namespace command {
-        class Fill : public Command {
+        class Add : public Command {
         public:
-            Fill(int x,int y,int w, int h, rgb_value r,rgb_value g,rgb_value b);
+
+            Add(std::string& filename,rgb_value r,rgb_value g,rgb_value b, int x, int y)
 
             Image *apply(Image *img) override;
 
@@ -20,14 +23,12 @@ namespace prog {
             std::string toString() const override;
 
         private:
-            int w;
-            int h;
-            Color fill;
+            std::string filename; //The png file to copy
+            Color neutral; //Neutral color
             int x;
             int y;
         };
     }
 }
 
-
-#endif //FILL_H
+#endif //ADD_H

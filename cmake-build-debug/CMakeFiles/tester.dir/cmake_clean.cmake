@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Color.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command.cpp.obj"
   "CMakeFiles/tester.dir/src/Command.cpp.obj.d"
+  "CMakeFiles/tester.dir/src/Command/Add.cpp.obj"
+  "CMakeFiles/tester.dir/src/Command/Add.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Blank.cpp.obj"
   "CMakeFiles/tester.dir/src/Command/Blank.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Fill.cpp.obj"

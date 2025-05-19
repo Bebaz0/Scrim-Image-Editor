@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08"
+CMAKE_SOURCE_DIR = "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug"
 
 # Utility rule file for delivery.
 
@@ -67,23 +67,24 @@ include CMakeFiles/delivery.dir/progress.make
 
 CMakeFiles/delivery: delivery.zip
 
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/include
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Color.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Command.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Command/Blank.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Command/Fill.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Command/Invert.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Command/Open.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Command/Save.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Command/to_gray_scale.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Image.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Logger.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/PNG.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Scrim.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/ScrimParser.cpp
-delivery.zip: C:/Users/Afonso\ Lima/Desktop/Code\ stuff/C++/Projeto_14.08/src/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Creating zip archive: C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/cmake-build-debug/delivery.zip"
-	cd /d C:\Users\AFONSO~1\Desktop\CODEST~1\C__~1\PROJET~1.08 && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E tar cf "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/cmake-build-debug/delivery.zip" --format=zip "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/include" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Color.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Blank.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Fill.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Invert.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Open.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Save.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/to_gray_scale.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Image.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Logger.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/PNG.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Scrim.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/ScrimParser.cpp" "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Utils.cpp"
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/include
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Color.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Command.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Command/Add.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Command/Blank.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Command/Fill.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Command/Invert.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Command/Open.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Command/Save.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Command/to_gray_scale.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Image.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Logger.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/PNG.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Scrim.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/ScrimParser.cpp
+delivery.zip: C:/Users/limaa/OneDrive/Dokumente/Code\ stuff/c++/Projeto_14.08/src/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Creating zip archive: C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/cmake-build-debug/delivery.zip"
+	cd /d C:\Users\limaa\OneDrive\DOKUME~1\CODEST~1\C__~1\PROJET~1.08 && "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E tar cf "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/cmake-build-debug/delivery.zip" --format=zip "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/include" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Color.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Add.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Blank.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Fill.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Invert.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Open.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Save.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/to_gray_scale.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Image.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Logger.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/PNG.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Scrim.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/ScrimParser.cpp" "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Utils.cpp"
 
 delivery: CMakeFiles/delivery
 delivery: delivery.zip
@@ -99,6 +100,6 @@ CMakeFiles/delivery.dir/clean:
 .PHONY : CMakeFiles/delivery.dir/clean
 
 CMakeFiles/delivery.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08" "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08" "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug" "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug" "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug\CMakeFiles\delivery.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08" "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08" "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug" "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug" "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug\CMakeFiles\delivery.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/delivery.dir/depend
 
