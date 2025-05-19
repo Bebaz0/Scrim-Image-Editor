@@ -9,6 +9,8 @@
 namespace prog {
 namespace command {
 
+    Fill::~Fill(){};
+
     Fill::Fill(int x,int y,int w, int h, rgb_value r, rgb_value g, rgb_value b) : Command("Fill"),x(x),y(y),w(w),h(h),fill(r,g,b){}
 
     Image *Fill::apply(Image *img) {

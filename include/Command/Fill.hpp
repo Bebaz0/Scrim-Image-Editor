@@ -12,21 +12,21 @@ namespace prog {
     namespace command {
         class Fill : public Command {
         public:
-            Fill();
+
+            ~Fill();
 
             Fill(int x,int y,int w, int h, rgb_value r,rgb_value g,rgb_value b);
 
             Image *apply(Image *img) override;
 
-            //returns the string representation of this com
-            std::string toString() const override;
+
 
         private:
+            int x;
+            int y;
             int w;
             int h;
             Color fill;
-            int x;
-            int y;
         };
     }
 }

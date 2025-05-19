@@ -15,14 +15,13 @@ namespace prog {
         class Add : public Command {
         public:
 
-            Add();
+            ~Add();
 
             Add(std::string& filename,rgb_value r,rgb_value g,rgb_value b, int x, int y);
 
             Image *apply(Image *img) override;
 
-            //returns the string representation of this com
-            std::string toString() const override;
+
 
         private:
             std::string filename; //The png file to copy

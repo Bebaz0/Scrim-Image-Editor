@@ -94,11 +94,23 @@ namespace prog {
         }
 
         if (command_name == "fill") {
-            return new command::Fill();
+            int x;
+            int y;
+            int w;
+            int h;
+            rgb_value r,g,b;
+            input >>x>>y>>w>>h>>r>>g>>b;
+
+            return new command::Fill(x,y,w,h,r,g,b);
         }
 
         if (command_name == "add") {
-            return new command::Add();
+            std::string filename;
+            rgb_value r,g,b;
+            int x;
+            int y;
+            input >>filename>>r>>g>>b>>x>>y;
+            return new command::Add(filename,r, g, b, x, y);
         }
 
         // TODO: implement cases for the new commands
