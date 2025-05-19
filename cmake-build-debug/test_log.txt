@@ -1,0 +1,33 @@
+>>> [1] add1 <<<
+Command not recognized: '0'
+Error while parsing command
+Scrim parse failed
+>>> [2] add2 <<<
+Command not recognized: '0'
+Error while parsing command
+Scrim parse failed
+>>> [3] add3 <<<
+Command not recognized: '0'
+Error while parsing command
+Scrim parse failed
+>>> [4] add4 <<<
+Command not recognized: '1'
+Error while parsing command
+Scrim parse failed
+>>> [5] add5 <<<
+Command not recognized: '0'
+Error while parsing command
+Scrim parse failed
+>>> [6] basic_blank1 <<<
+Applying command 'Blank w:200 h:100 fill:255:0:0'
+Applying command 'Save filename:output/basic_blank1.png'
+Could not load image from ./expected/basic_blank1.png
+>>> [7] basic_blank2 <<<
+Applying command 'Blank w:100 h:200 fill:255:255:0'
+Applying command 'Save filename:output/basic_blank2.png'
+Could not load image from ./expected/basic_blank2.png
+>>> [8] basic_blank3 <<<
+Applying command 'Blank w:300 h:250 fill:0:255:255'
+Applying command 'Blank w:200 h:100 fill:255:0:0'
+Applying command 'Save filename:output/basic_blank3.png'
+Could not load image from ./expected/basic_blank3.png

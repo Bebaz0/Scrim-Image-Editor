@@ -1,17 +1,16 @@
->>> [1] basic_blank1 <<<
-Applying command 'Blank w:200 h:100 fill:255:0:0'
-Applying command 'Save filename:output/basic_blank1.png'
->>> [2] basic_blank2 <<<
-Applying command 'Blank w:100 h:200 fill:255:255:0'
-Applying command 'Save filename:output/basic_blank2.png'
->>> [3] basic_blank3 <<<
-Applying command 'Blank w:300 h:250 fill:0:255:255'
-Applying command 'Blank w:200 h:100 fill:255:0:0'
-Applying command 'Save filename:output/basic_blank3.png'
->>> [4] basic_open1 <<<
+>>> [1] move1 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Save filename:output/basic_open1.png'
->>> [5] basic_open2 <<<
-Applying command 'Open filename:input/squares.png'
-Applying command 'Open filename:input/unionjack.png'
-Applying command 'Save filename:output/basic_open2.png'
+Applying command 'Move'
+Applying command 'Save filename:output/move1.png'
+>>> [2] move2 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'Move'
+Applying command 'Save filename:output/move2.png'
+>>> [3] move3 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'Move'
+Applying command 'Save filename:output/move3.png'
+>>> [4] move4 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'Move'
+Applying command 'Save filename:output/move4.png'

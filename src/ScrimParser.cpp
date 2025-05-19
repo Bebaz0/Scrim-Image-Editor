@@ -11,6 +11,7 @@
 #include "Command/to_gray_scale.hpp"
 #include "Command/Fill.hpp"
 #include "Command/Add.hpp"
+#include "Command/Move.hpp"
 
 #include <fstream>
 #include <string>
@@ -112,6 +113,15 @@ namespace prog {
             input >>filename>>r>>g>>b>>x>>y;
             return new command::Add(filename,r, g, b, x, y);
         }
+
+        if (command_name == "move"){
+            int x, y;
+            input >> x >> y;
+
+            Color fill(255, 255, 255);
+            return new command::Move(x, y, fill);
+        }
+
 
         // TODO: implement cases for the new commands
 
