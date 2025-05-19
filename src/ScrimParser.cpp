@@ -10,6 +10,7 @@
 #include "Command/Invert.hpp"
 #include "Command/to_gray_scale.hpp"
 #include "Command/Fill.hpp"
+#include "Command/Add.hpp"
 
 #include <fstream>
 #include <string>
@@ -94,6 +95,10 @@ namespace prog {
 
         if (command_name == "fill") {
             return new command::Fill();
+        }
+
+        if (command_name == "add") {
+            return new command::Add();
         }
 
         // TODO: implement cases for the new commands
