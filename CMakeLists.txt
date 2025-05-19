@@ -25,6 +25,8 @@ add_executable(runscrim
         src/Command/Invert.cpp
         include/Command/to_gray_scale.hpp
         src/Command/to_gray_scale.cpp
+        include/Command/Fill.hpp
+        src/Command/Fill.cpp
 )
 
 # Create tester executable
