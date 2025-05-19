@@ -3,6 +3,7 @@
 //
 
 #include "Command/Fill.hpp"
+#include <sstream>
 #include "Image.hpp"
 #include "Color.hpp"
 
@@ -15,17 +16,24 @@ namespace command {
 
     Image *Fill::apply(Image *img) {
 
+        //limits
+        int startX = std::max(0, x);
+        int startY = std::max(0, y);
+        int endX = std::min(img->width(), x + w);
+        int endY = std::min(img->height(), y + h);
 
-        //Runs through the pixels and changes them to the color
-        for (int i = x;i<x+w;i++) {
-            for (int j = y;j<y+h;j++) {
-                img->at(i,j) = Color(fill);
+        //goes over valid image coordinates
+        for (int i = startX; i < endX; i++) {
+            for (int j = startY; j < endY; j++) {
+                img->at(i, j) = Color(fill);
             }
         }
         return img;
-
     }
-
-
-}
+    std::string Fill::toString() const {
+        std::ostringstream ss;
+        ss << name() << " x:" << x << " y:" << y << " w:" << w << " h:" << h << " fill:" << fill;
+        return ss.str();
+    }
+  }
 }

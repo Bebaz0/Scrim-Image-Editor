@@ -19,7 +19,7 @@ namespace prog {
 
             Image *apply(Image *img) override;
 
-
+            std::string toString() const;
 
         private:
             int x;
