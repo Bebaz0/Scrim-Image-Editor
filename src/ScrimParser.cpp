@@ -11,6 +11,7 @@
 #include "Command/to_gray_scale.hpp"
 #include "Command/Fill.hpp"
 #include "Command/Add.hpp"
+#include "Command/Rotate_left.hpp"
 
 #include <fstream>
 #include <string>
@@ -112,6 +113,11 @@ namespace prog {
             input >>filename>>r>>g>>b>>x>>y;
             return new command::Add(filename,r, g, b, x, y);
         }
+
+        if (command_name == "rotate_left") {
+            return new command::Rotate_left();
+        }
+
 
         // TODO: implement cases for the new commands
 
