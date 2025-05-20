@@ -15,9 +15,7 @@ namespace prog {
         class Add : public Command {
         public:
 
-            ~Add();
-
-            Add(std::string& filename,rgb_value r,rgb_value g,rgb_value b, int x, int y);
+            Add(std::string& filename,int r,int g,int b, int x, int y);
 
             Image *apply(Image *img) override;
 

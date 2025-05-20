@@ -10,9 +10,7 @@
 namespace prog {
     namespace command {
 
-        Add::~Add() {};
-
-        Add::Add(std::string& filename,rgb_value r,rgb_value g,rgb_value b, int x, int y) : Command("Add"),filename(filename), neutral(r,g,b),x(x),y(y){}
+        Add::Add(std::string& filename,int r,int g,int b, int x, int y) : Command("Add"),filename(filename), neutral(r,g,b),x(x),y(y){}
 
         Image *Add::apply(Image *img) {
             Image* source = loadFromPNG(filename); //upload file to the variable source

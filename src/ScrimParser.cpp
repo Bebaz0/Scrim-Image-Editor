@@ -11,7 +11,8 @@
 #include "Command/to_gray_scale.hpp"
 #include "Command/Fill.hpp"
 #include "Command/Add.hpp"
-#include "Command/Rotate_left.hpp"
+#include "Command/Move.hpp"
+#include "Command/Replace.hpp"
 
 #include <fstream>
 #include <string>
@@ -99,7 +100,7 @@ namespace prog {
             int y;
             int w;
             int h;
-            rgb_value r,g,b;
+            int r,g,b;
             input >>x>>y>>w>>h>>r>>g>>b;
 
             return new command::Fill(x,y,w,h,r,g,b);
@@ -107,15 +108,25 @@ namespace prog {
 
         if (command_name == "add") {
             std::string filename;
-            rgb_value r,g,b;
+            int r,g,b;
             int x;
             int y;
             input >>filename>>r>>g>>b>>x>>y;
             return new command::Add(filename,r, g, b, x, y);
         }
 
-        if (command_name == "rotate_left") {
-            return new command::Rotate_left();
+        if (command_name == "move"){
+            int x, y;
+            input >> x >> y;
+
+            Color fill(255, 255, 255);
+            return new command::Move(x, y, fill);
+        }
+
+        if (command_name == "replace") {
+            int r1,g1, b1, r2, g2, b2;
+            input >>r1>>g1>>b1>>r2>>g2>>b2;
+            return new Replace(r1,g1,b1,r2,g2,b2);
         }
 
 

@@ -3,25 +3,27 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES_BASE at CMakeLists.txt:18 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/*.cpp")
 set(OLD_GLOB
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Color.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Add.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Blank.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Fill.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Invert.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Open.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/Save.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Command/to_gray_scale.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Image.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Logger.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/PNG.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Scrim.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/ScrimParser.cpp"
-  "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/src/Utils.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Color.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Add.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Blank.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Fill.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Invert.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Move.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Open.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Replace.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/Save.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Command/to_gray_scale.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Image.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Logger.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/PNG.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Scrim.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/ScrimParser.cpp"
+  "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/src/Utils.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()

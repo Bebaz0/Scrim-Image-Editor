@@ -38,6 +38,7 @@ namespace prog {
     rgb_value &Color::blue() {
         return blue_;
     }
+
 }
 
 

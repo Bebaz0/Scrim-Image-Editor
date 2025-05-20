@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08"
+CMAKE_SOURCE_DIR = "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug\CMakeFiles" "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug\CMakeFiles" "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -112,7 +112,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
@@ -365,6 +365,33 @@ src/Command/Invert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Invert.cpp.s
 .PHONY : src/Command/Invert.cpp.s
 
+src/Command/Move.obj: src/Command/Move.cpp.obj
+.PHONY : src/Command/Move.obj
+
+# target to build an object file
+src/Command/Move.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Move.cpp.obj
+.PHONY : src/Command/Move.cpp.obj
+
+src/Command/Move.i: src/Command/Move.cpp.i
+.PHONY : src/Command/Move.i
+
+# target to preprocess a source file
+src/Command/Move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Move.cpp.i
+.PHONY : src/Command/Move.cpp.i
+
+src/Command/Move.s: src/Command/Move.cpp.s
+.PHONY : src/Command/Move.s
+
+# target to generate assembly for a file
+src/Command/Move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Move.cpp.s
+.PHONY : src/Command/Move.cpp.s
+
 src/Command/Open.obj: src/Command/Open.cpp.obj
 .PHONY : src/Command/Open.obj
 
@@ -391,6 +418,33 @@ src/Command/Open.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Open.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Open.cpp.s
 .PHONY : src/Command/Open.cpp.s
+
+src/Command/Replace.obj: src/Command/Replace.cpp.obj
+.PHONY : src/Command/Replace.obj
+
+# target to build an object file
+src/Command/Replace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Replace.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Replace.cpp.obj
+.PHONY : src/Command/Replace.cpp.obj
+
+src/Command/Replace.i: src/Command/Replace.cpp.i
+.PHONY : src/Command/Replace.i
+
+# target to preprocess a source file
+src/Command/Replace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Replace.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Replace.cpp.i
+.PHONY : src/Command/Replace.cpp.i
+
+src/Command/Replace.s: src/Command/Replace.cpp.s
+.PHONY : src/Command/Replace.s
+
+# target to generate assembly for a file
+src/Command/Replace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Replace.cpp.s
+.PHONY : src/Command/Replace.cpp.s
 
 src/Command/Save.obj: src/Command/Save.cpp.obj
 .PHONY : src/Command/Save.obj
@@ -643,9 +697,15 @@ help:
 	@echo ... src/Command/Invert.obj
 	@echo ... src/Command/Invert.i
 	@echo ... src/Command/Invert.s
+	@echo ... src/Command/Move.obj
+	@echo ... src/Command/Move.i
+	@echo ... src/Command/Move.s
 	@echo ... src/Command/Open.obj
 	@echo ... src/Command/Open.i
 	@echo ... src/Command/Open.s
+	@echo ... src/Command/Replace.obj
+	@echo ... src/Command/Replace.i
+	@echo ... src/Command/Replace.s
 	@echo ... src/Command/Save.obj
 	@echo ... src/Command/Save.i
 	@echo ... src/Command/Save.s
@@ -681,7 +741,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P "C:\Users\limaa\OneDrive\Dokumente\Code stuff\c++\Projeto_14.08\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "C:\Users\Afonso Lima\Desktop\Code stuff\C++\Projeto_14.08\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

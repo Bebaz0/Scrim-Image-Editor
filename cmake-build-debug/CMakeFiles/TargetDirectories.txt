@@ -1,5 +1,5 @@
-C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/cmake-build-debug/CMakeFiles/runscrim.dir
-C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/cmake-build-debug/CMakeFiles/tester.dir
-C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/cmake-build-debug/CMakeFiles/delivery.dir
-C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/limaa/OneDrive/Dokumente/Code stuff/c++/Projeto_14.08/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/cmake-build-debug/CMakeFiles/runscrim.dir
+C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/cmake-build-debug/CMakeFiles/tester.dir
+C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/cmake-build-debug/CMakeFiles/delivery.dir
+C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Afonso Lima/Desktop/Code stuff/C++/Projeto_14.08/cmake-build-debug/CMakeFiles/rebuild_cache.dir

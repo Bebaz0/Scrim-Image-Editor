@@ -21,6 +21,7 @@ namespace prog {
         for (Command *c: commands) {
             *Logger::out() << "Applying command '" << c->toString() << "'\n";
             img = c->apply(img);
+
         }
 
         return img;
