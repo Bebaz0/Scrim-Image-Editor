@@ -7,6 +7,7 @@
 #include "Image.hpp"
 #include "PNG.hpp"
 
+
 namespace prog {
     namespace command {
 
@@ -32,6 +33,7 @@ namespace prog {
 
                 }
             }
+            delete source; //delete the source image to free memory
             return img;
         }
     }
