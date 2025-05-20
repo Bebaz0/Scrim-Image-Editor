@@ -10,30 +10,23 @@
 namespace prog {
 namespace command {
 
-    Fill::~Fill(){};
-
-    Fill::Fill(int x,int y,int w, int h, rgb_value r, rgb_value g, rgb_value b) : Command("Fill"),x(x),y(y),w(w),h(h),fill(r,g,b){}
+    Fill::Fill(int x,int y,int w, int h, int r, int g, int b) : Command("Fill"),x(x),y(y),w(w),h(h),fill(r,g,b){}
 
     Image *Fill::apply(Image *img) {
+        int width = img->width();
+        int height = img->height();
 
-        //limits
-        int startX = std::max(0, x);
-        int startY = std::max(0, y);
-        int endX = std::min(img->width(), x + w);
-        int endY = std::min(img->height(), y + h);
-
-        //goes over valid image coordinates
-        for (int i = startX; i < endX; i++) {
-            for (int j = startY; j < endY; j++) {
-                img->at(i, j) = Color(fill);
+        //Only fills the area that is inside the image and within the bounds
+        for (int i = y; i < y + h; i++) {
+            for (int j = x; j < x + w ; j++) {
+                //Check if the pixel is within the bounds of the image
+                if (i >= 0 && i < height && j >= 0 && j < width) {
+                    //Set the pixel color to the fill color
+                    img->at(j, i) = fill;
+                }
             }
         }
         return img;
     }
-    std::string Fill::toString() const {
-        std::ostringstream ss;
-        ss << name() << " x:" << x << " y:" << y << " w:" << w << " h:" << h << " fill:" << fill;
-        return ss.str();
     }
   }
-}

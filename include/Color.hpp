@@ -1,3 +1,4 @@
+
 #ifndef __prog_Color_hpp__
 #define __prog_Color_hpp__
 
@@ -29,9 +30,11 @@ namespace prog {
         rgb_value &blue();
 
     private:
-        rgb_value red_ ,green_,blue_; //variaveis de uma cor
+        rgb_value red_ ,green_,blue_; //variables to store the color values
     };
 }
+
+
 
 std::istream &operator>>(std::istream &input, prog::Color &c);
 

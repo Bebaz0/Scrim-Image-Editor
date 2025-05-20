@@ -12,6 +12,7 @@
 #include "Command/Fill.hpp"
 #include "Command/Add.hpp"
 #include "Command/Move.hpp"
+#include "Command/Replace.hpp"
 
 #include <fstream>
 #include <string>
@@ -99,7 +100,7 @@ namespace prog {
             int y;
             int w;
             int h;
-            rgb_value r,g,b;
+            int r,g,b;
             input >>x>>y>>w>>h>>r>>g>>b;
 
             return new command::Fill(x,y,w,h,r,g,b);
@@ -107,7 +108,7 @@ namespace prog {
 
         if (command_name == "add") {
             std::string filename;
-            rgb_value r,g,b;
+            int r,g,b;
             int x;
             int y;
             input >>filename>>r>>g>>b>>x>>y;
@@ -120,6 +121,12 @@ namespace prog {
 
             Color fill(255, 255, 255);
             return new command::Move(x, y, fill);
+        }
+
+        if (command_name == "replace") {
+            int r1,g1, b1, r2, g2, b2;
+            input >>r1>>g1>>b1>>r2>>g2>>b2;
+            return new Replace(r1,g1,b1,r2,g2,b2);
         }
 
 

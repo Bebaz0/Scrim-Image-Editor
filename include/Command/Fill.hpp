@@ -13,13 +13,9 @@ namespace prog {
         class Fill : public Command {
         public:
 
-            ~Fill();
-
-            Fill(int x,int y,int w, int h, rgb_value r,rgb_value g,rgb_value b);
+            Fill(int x,int y,int w, int h, int r,int g,int b);
 
             Image *apply(Image *img) override;
-
-            std::string toString() const;
 
         private:
             int x;
