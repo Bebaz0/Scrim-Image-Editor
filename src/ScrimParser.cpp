@@ -13,6 +13,7 @@
 #include "Command/Add.hpp"
 #include "Command/Move.hpp"
 #include "Command/Replace.hpp"
+#include "Command/Rotate_left.hpp"
 
 #include <fstream>
 #include <string>
@@ -128,6 +129,11 @@ namespace prog {
             input >>r1>>g1>>b1>>r2>>g2>>b2;
             return new Replace(r1,g1,b1,r2,g2,b2);
         }
+
+        if (command_name == "rotate_left") {
+            return new command::Rotate_left();
+        }
+
 
 
         // TODO: implement cases for the new commands
