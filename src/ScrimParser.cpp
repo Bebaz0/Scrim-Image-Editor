@@ -14,6 +14,7 @@
 #include "Command/Move.hpp"
 #include "Command/Replace.hpp"
 #include "Command/Rotate_left.hpp"
+#include "Command/Slide.hpp"
 
 #include <fstream>
 #include <string>
@@ -122,6 +123,12 @@ namespace prog {
 
             Color fill(255, 255, 255);
             return new command::Move(x, y, fill);
+        }
+
+        if (command_name == "slide"){
+            int x, y;
+            input >> x >> y;
+            return new command::Slide(x, y);
         }
 
         if (command_name == "replace") {

@@ -31,6 +31,8 @@ add_executable(runscrim
         src/Command/Add.cpp
         include/Command/Move.hpp
         src/Command/Move.cpp
+        include/Command/Slide.hpp
+        src/Command/Slide.cpp
 )
 
 # Create tester executable
@@ -41,6 +43,8 @@ add_executable(tester
         src/Command/to_gray_scale.cpp
         include/Command/Move.hpp
         src/Command/Move.cpp
+        include/Command/Slide.hpp
+        src/Command/Slide.cpp
 )
 
 target_include_directories(runscrim PRIVATE
