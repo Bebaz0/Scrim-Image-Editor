@@ -1,5 +1,5 @@
 //
-// Created by JBispo on 05/04/2025.
+// Created by JBispo on 05/04/2025, adapted by danielramaa and limaa on 17/05/2025-22/05/2025
 //
 #include "ScrimParser.hpp"
 
