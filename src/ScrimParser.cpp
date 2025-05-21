@@ -15,6 +15,8 @@
 #include "Command/Replace.hpp"
 #include "Command/Rotate_left.hpp"
 #include "Command/Slide.hpp"
+#include "Command/Rotate_right.hpp"
+#include "Command/Rotate.hpp"
 
 #include <fstream>
 #include <string>
@@ -140,6 +142,11 @@ namespace prog {
         if (command_name == "rotate_left") {
             return new command::Rotate_left();
         }
+
+        if (command_name == "rotate_right") {
+            return new command::Rotate_right();
+        }
+
 
 
 

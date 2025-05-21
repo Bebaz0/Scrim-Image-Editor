@@ -5,19 +5,21 @@
 #ifndef ROTATE_LEFT_H
 #define ROTATE_LEFT_H
 
-#include "Command.hpp"
-#include "Color.hpp"
-#include "Image.hpp"
+#include "Rotate.hpp"
 
 namespace prog {
     namespace command {
-        class Rotate_left : public Command {
-
+        class Rotate_left : public Rotate {
         public:
-            Rotate_left(); //Function to rotate the image to the left no arguments needed
-            Image *apply(Image *img) override;
+            Rotate_left();
+
+        protected:
+            // Implementation for left rotation
+            virtual void direction(int x, int y, int width, int height, int& new_x, int& new_y) const;
         };
     }
 }
+
+
 
 #endif //ROTATE_LEFT_H
