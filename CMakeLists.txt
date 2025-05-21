@@ -33,6 +33,7 @@ add_executable(runscrim
         src/Command/Move.cpp
         include/Command/Slide.hpp
         src/Command/Slide.cpp
+        include/Command/Crop.hpp
 )
 
 # Create tester executable
@@ -45,6 +46,7 @@ add_executable(tester
         src/Command/Move.cpp
         include/Command/Slide.hpp
         src/Command/Slide.cpp
+        include/Command/Crop.hpp
 )
 
 target_include_directories(runscrim PRIVATE
