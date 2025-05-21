@@ -26,6 +26,7 @@
 #include <vector>
 
 #include <cstdlib>
+#include <Command/Rotate_right.hpp>
 
 using std::ifstream;
 using std::istream;
@@ -166,6 +167,10 @@ namespace prog {
             input >> x >> y;
 
             return new command::Scaleup(x, y);
+        }
+
+        if (command_name=="rotate_right"){
+            return new command::Rotate_right();
         }
 
 
