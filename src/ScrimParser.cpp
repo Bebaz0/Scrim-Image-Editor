@@ -18,6 +18,7 @@
 #include "Command/h_mirror.hpp"
 #include "Command/v_mirror.hpp"
 #include "Command/Resize.hpp"
+#include "Command/Scaleup.hpp"
 
 
 #include <fstream>
@@ -159,6 +160,12 @@ namespace prog {
             input >> x>>y>>w>>h;
 
             return new command::Resize(x, y, w, h);
+        }
+        if (command_name == "scaleup") {
+            int x, y;
+            input >> x >> y;
+
+            return new command::Scaleup(x, y);
         }
 
 
