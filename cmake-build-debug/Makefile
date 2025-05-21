@@ -447,6 +447,33 @@ src/Command/Replace.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Replace.cpp.s
 .PHONY : src/Command/Replace.cpp.s
 
+src/Command/Resize.o: src/Command/Resize.cpp.o
+.PHONY : src/Command/Resize.o
+
+# target to build an object file
+src/Command/Resize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Resize.cpp.o
+.PHONY : src/Command/Resize.cpp.o
+
+src/Command/Resize.i: src/Command/Resize.cpp.i
+.PHONY : src/Command/Resize.i
+
+# target to preprocess a source file
+src/Command/Resize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Resize.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Resize.cpp.i
+.PHONY : src/Command/Resize.cpp.i
+
+src/Command/Resize.s: src/Command/Resize.cpp.s
+.PHONY : src/Command/Resize.s
+
+# target to generate assembly for a file
+src/Command/Resize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Resize.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Resize.cpp.s
+.PHONY : src/Command/Resize.cpp.s
+
 src/Command/Rotate_left.o: src/Command/Rotate_left.cpp.o
 .PHONY : src/Command/Rotate_left.o
 
@@ -528,6 +555,33 @@ src/Command/Slide.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Slide.cpp.s
 .PHONY : src/Command/Slide.cpp.s
 
+src/Command/h_mirror.o: src/Command/h_mirror.cpp.o
+.PHONY : src/Command/h_mirror.o
+
+# target to build an object file
+src/Command/h_mirror.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o
+.PHONY : src/Command/h_mirror.cpp.o
+
+src/Command/h_mirror.i: src/Command/h_mirror.cpp.i
+.PHONY : src/Command/h_mirror.i
+
+# target to preprocess a source file
+src/Command/h_mirror.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/h_mirror.cpp.i
+.PHONY : src/Command/h_mirror.cpp.i
+
+src/Command/h_mirror.s: src/Command/h_mirror.cpp.s
+.PHONY : src/Command/h_mirror.s
+
+# target to generate assembly for a file
+src/Command/h_mirror.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/h_mirror.cpp.s
+.PHONY : src/Command/h_mirror.cpp.s
+
 src/Command/to_gray_scale.o: src/Command/to_gray_scale.cpp.o
 .PHONY : src/Command/to_gray_scale.o
 
@@ -554,6 +608,33 @@ src/Command/to_gray_scale.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.s
 .PHONY : src/Command/to_gray_scale.cpp.s
+
+src/Command/v_mirror.o: src/Command/v_mirror.cpp.o
+.PHONY : src/Command/v_mirror.o
+
+# target to build an object file
+src/Command/v_mirror.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o
+.PHONY : src/Command/v_mirror.cpp.o
+
+src/Command/v_mirror.i: src/Command/v_mirror.cpp.i
+.PHONY : src/Command/v_mirror.i
+
+# target to preprocess a source file
+src/Command/v_mirror.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/v_mirror.cpp.i
+.PHONY : src/Command/v_mirror.cpp.i
+
+src/Command/v_mirror.s: src/Command/v_mirror.cpp.s
+.PHONY : src/Command/v_mirror.s
+
+# target to generate assembly for a file
+src/Command/v_mirror.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/v_mirror.cpp.s
+.PHONY : src/Command/v_mirror.cpp.s
 
 src/Image.o: src/Image.cpp.o
 .PHONY : src/Image.o
@@ -761,6 +842,9 @@ help:
 	@echo "... src/Command/Replace.o"
 	@echo "... src/Command/Replace.i"
 	@echo "... src/Command/Replace.s"
+	@echo "... src/Command/Resize.o"
+	@echo "... src/Command/Resize.i"
+	@echo "... src/Command/Resize.s"
 	@echo "... src/Command/Rotate_left.o"
 	@echo "... src/Command/Rotate_left.i"
 	@echo "... src/Command/Rotate_left.s"
@@ -770,9 +854,15 @@ help:
 	@echo "... src/Command/Slide.o"
 	@echo "... src/Command/Slide.i"
 	@echo "... src/Command/Slide.s"
+	@echo "... src/Command/h_mirror.o"
+	@echo "... src/Command/h_mirror.i"
+	@echo "... src/Command/h_mirror.s"
 	@echo "... src/Command/to_gray_scale.o"
 	@echo "... src/Command/to_gray_scale.i"
 	@echo "... src/Command/to_gray_scale.s"
+	@echo "... src/Command/v_mirror.o"
+	@echo "... src/Command/v_mirror.i"
+	@echo "... src/Command/v_mirror.s"
 	@echo "... src/Image.o"
 	@echo "... src/Image.i"
 	@echo "... src/Image.s"

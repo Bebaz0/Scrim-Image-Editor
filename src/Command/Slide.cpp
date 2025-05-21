@@ -6,6 +6,8 @@
 #include "Command/Slide.hpp"
 #include "Image.hpp"
 #include "Color.hpp"
+#include "Command/Move.hpp"
+
 
 namespace prog{
     namespace command{
@@ -23,7 +25,7 @@ namespace prog{
                     new_img->at(x, y) = img->at(src_x, src_y);
                 }
             }
-
+            delete img;
             return new_img;
         }
     }

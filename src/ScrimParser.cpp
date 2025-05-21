@@ -15,10 +15,15 @@
 #include "Command/Replace.hpp"
 #include "Command/Rotate_left.hpp"
 #include "Command/Slide.hpp"
+#include "Command/h_mirror.hpp"
+#include "Command/v_mirror.hpp"
+#include "Command/Resize.hpp"
+
 
 #include <fstream>
 #include <string>
 #include <vector>
+
 #include <cstdlib>
 
 using std::ifstream;
@@ -139,6 +144,21 @@ namespace prog {
 
         if (command_name == "rotate_left") {
             return new command::Rotate_left();
+        }
+
+        if (command_name == "h_mirror") {
+            return new command::H_mirror();
+        }
+
+        if (command_name == "v_mirror"){
+            return new command::V_mirror();
+        }
+
+        if (command_name == "resize") {
+            int x, y, w, h;
+            input >> x>>y>>w>>h;
+
+            return new command::Resize(x, y, w, h);
         }
 
 
