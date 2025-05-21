@@ -13,6 +13,10 @@ namespace prog {
         class Fill : public Command {
         public:
 
+            ///brief     Constructor
+            ///x,y  The coordinates to start filling
+            ///w,h  The width and height of the area to fill
+            ///r,g,b   The color to fill
             Fill(int x,int y,int w, int h, int r,int g,int b);
 
             Image *apply(Image *img) override;

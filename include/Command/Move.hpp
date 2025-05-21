@@ -12,6 +12,10 @@ namespace prog{
     namespace command{
         class Move : public Command{
         public:
+
+            ///@brief Moves a area to a new position replacing the moved pixels for the color fill
+            ///x,y coordinates of the top left corner of the image
+            ///fill color
             Move(int x , int y, Color fill);
             Image *apply(Image *img) override;
 

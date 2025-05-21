@@ -8,6 +8,7 @@ namespace prog {
     namespace command {
         class V_mirror : public Command {
         public:
+            ///brief Mirrors the image vertically
             V_mirror();
             Image *apply(Image *img) override;
         };

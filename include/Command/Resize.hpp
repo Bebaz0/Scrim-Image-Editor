@@ -7,6 +7,9 @@ namespace prog {
     namespace command {
         class Resize : public Command {
         public:
+            ///@brief Resizes the selection of the image to the width and height of the original image
+            ///x,y area to resize
+            ///w,h width and height of the area to resize
             Resize(int x, int y, int w, int h);
 
             Image *apply(Image *img) override;

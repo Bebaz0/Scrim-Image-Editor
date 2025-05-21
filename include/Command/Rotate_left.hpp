@@ -11,10 +11,11 @@ namespace prog {
     namespace command {
         class Rotate_left : public Rotate {
         public:
+            ///@brief Rotates the image 90º to the left with center as the pivot
             Rotate_left();
 
         protected:
-            // Implementation for left rotation
+            ///@brief Implementation for left rotation details for the function are in Rotate.hpp
             virtual void direction(int x, int y, int width, int height, int& new_x, int& new_y) const;
         };
     }

@@ -9,7 +9,10 @@ namespace prog {
 
         class H_mirror : public Command {
         public:
+
+            ///@brief Mirrors the image horizontally
             H_mirror();
+
             Image *apply(Image *img) override;
 
         };

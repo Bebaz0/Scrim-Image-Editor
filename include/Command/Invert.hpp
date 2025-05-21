@@ -10,6 +10,7 @@ namespace prog {
     namespace command {
         class Invert : public Command {
         public:
+            ///@brief Inverts the colors of the image
             Invert();
             Image *apply(Image *img) override;
         };

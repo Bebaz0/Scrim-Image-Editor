@@ -13,9 +13,13 @@ namespace prog {
     namespace command {
         class Rotate : public Command {
         protected:
+            ///@brief Used to initialize the command with the name of the inherited command
             Rotate(const std::string& name);
 
-            // Changes the direction of the pixel depending on the rotation
+            ///@brief Changes the direction of the pixel depending on the rotation
+            ///x,y coordinates of the original pixel
+            ///width,height dimensions of the image
+            ///new_x,new_y coordinates of the rotated pixel
             virtual void direction(int x, int y, int width, int height, int& new_x, int& new_y) const = 0;
 
         public:
