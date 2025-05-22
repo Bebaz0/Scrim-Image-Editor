@@ -311,6 +311,33 @@ src/Command/Blank.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Blank.cpp.s
 .PHONY : src/Command/Blank.cpp.s
 
+src/Command/Chain.obj: src/Command/Chain.cpp.obj
+.PHONY : src/Command/Chain.obj
+
+# target to build an object file
+src/Command/Chain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.obj
+.PHONY : src/Command/Chain.cpp.obj
+
+src/Command/Chain.i: src/Command/Chain.cpp.i
+.PHONY : src/Command/Chain.i
+
+# target to preprocess a source file
+src/Command/Chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.i
+.PHONY : src/Command/Chain.cpp.i
+
+src/Command/Chain.s: src/Command/Chain.cpp.s
+.PHONY : src/Command/Chain.s
+
+# target to generate assembly for a file
+src/Command/Chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\runscrim.dir\build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.s
+.PHONY : src/Command/Chain.cpp.s
+
 src/Command/Crop.obj: src/Command/Crop.cpp.obj
 .PHONY : src/Command/Crop.obj
 
@@ -934,6 +961,9 @@ help:
 	@echo ... src/Command/Blank.obj
 	@echo ... src/Command/Blank.i
 	@echo ... src/Command/Blank.s
+	@echo ... src/Command/Chain.obj
+	@echo ... src/Command/Chain.i
+	@echo ... src/Command/Chain.s
 	@echo ... src/Command/Crop.obj
 	@echo ... src/Command/Crop.i
 	@echo ... src/Command/Crop.s

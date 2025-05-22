@@ -6,6 +6,7 @@
 #include "Logger.hpp"
 #include <cstdlib>
 #include <sstream>
+#include <filesystem>
 
 namespace prog {
 
@@ -14,21 +15,43 @@ namespace prog {
 
         Open::~Open() {};
 
-        Image *Open::apply(Image *img) {
-            // Dispose of previous image
-            delete img;
+Image *Open::apply(Image *img) {
+    // Dispose of previous image
+    delete img;
 
-            // TODO:  fix rootpath
-            // img = loadFromPNG("../"+filename);
-            img = loadFromPNG(filename);
+    // Try multiple possible locations for the input directory
+    std::vector<std::string> possiblePaths = {
+        filename,                    //direct path
+        "input/" + filename,         //input subdirectory
+        "../input/" + filename,      //input directory one level up
+        "../../input/" + filename,   //input directory two levels up
+        "../../../input/" + filename //input directory three levels up
+    };
 
-            if (!img) {
-                *Logger::err() << "Could not open file " << filename << "\n";
-                std::exit(1);
-            }
+    img = nullptr;
+    std::string successPath;
 
-            return img;
+    //try each path
+    for (const auto& path : possiblePaths) {
+        img = loadFromPNG(path);
+        if (img) {
+            successPath = path;
+            break;
         }
+    }
+
+    if (!img) {
+        *Logger::err() << "Could not open file " << filename << " in any known location\n";
+        *Logger::err() << "Tried the following paths:\n";
+        for (const auto& path : possiblePaths) {
+            *Logger::err() << " - " << path << "\n";
+        }
+        std::exit(1);
+    } else {
+    }
+
+    return img;
+}
 
         std::string Open::toString() const {
             std::ostringstream ss;

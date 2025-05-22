@@ -131,11 +131,26 @@ CMakeFiles/tester.dir/src/Command/Blank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Blank.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Blank.cpp -o CMakeFiles\tester.dir\src\Command\Blank.cpp.s
 
+CMakeFiles/tester.dir/src/Command/Chain.cpp.obj: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/Chain.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
+CMakeFiles/tester.dir/src/Command/Chain.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Chain.cpp
+CMakeFiles/tester.dir/src/Command/Chain.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tester.dir/src/Command/Chain.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Chain.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Chain.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Chain.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Chain.cpp
+
+CMakeFiles/tester.dir/src/Command/Chain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Chain.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Chain.cpp > CMakeFiles\tester.dir\src\Command\Chain.cpp.i
+
+CMakeFiles/tester.dir/src/Command/Chain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Chain.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Chain.cpp -o CMakeFiles\tester.dir\src\Command\Chain.cpp.s
+
 CMakeFiles/tester.dir/src/Command/Crop.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/Crop.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Crop.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Crop.cpp
 CMakeFiles/tester.dir/src/Command/Crop.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tester.dir/src/Command/Crop.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tester.dir/src/Command/Crop.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Crop.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Crop.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Crop.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Crop.cpp
 
 CMakeFiles/tester.dir/src/Command/Crop.cpp.i: cmake_force
@@ -150,7 +165,7 @@ CMakeFiles/tester.dir/src/Command/Fill.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/Fill.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Fill.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Fill.cpp
 CMakeFiles/tester.dir/src/Command/Fill.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tester.dir/src/Command/Fill.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tester.dir/src/Command/Fill.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Fill.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Fill.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Fill.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Fill.cpp
 
 CMakeFiles/tester.dir/src/Command/Fill.cpp.i: cmake_force
@@ -165,7 +180,7 @@ CMakeFiles/tester.dir/src/Command/Invert.cpp.obj: CMakeFiles/tester.dir/flags.ma
 CMakeFiles/tester.dir/src/Command/Invert.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Invert.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Invert.cpp
 CMakeFiles/tester.dir/src/Command/Invert.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tester.dir/src/Command/Invert.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tester.dir/src/Command/Invert.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Invert.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Invert.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Invert.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Invert.cpp
 
 CMakeFiles/tester.dir/src/Command/Invert.cpp.i: cmake_force
@@ -180,7 +195,7 @@ CMakeFiles/tester.dir/src/Command/Move.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/Move.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Move.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Move.cpp
 CMakeFiles/tester.dir/src/Command/Move.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tester.dir/src/Command/Move.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tester.dir/src/Command/Move.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Move.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Move.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Move.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Move.cpp
 
 CMakeFiles/tester.dir/src/Command/Move.cpp.i: cmake_force
@@ -195,7 +210,7 @@ CMakeFiles/tester.dir/src/Command/Open.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/Open.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Open.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Open.cpp
 CMakeFiles/tester.dir/src/Command/Open.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tester.dir/src/Command/Open.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tester.dir/src/Command/Open.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Open.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Open.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Open.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Open.cpp
 
 CMakeFiles/tester.dir/src/Command/Open.cpp.i: cmake_force
@@ -210,7 +225,7 @@ CMakeFiles/tester.dir/src/Command/Replace.cpp.obj: CMakeFiles/tester.dir/flags.m
 CMakeFiles/tester.dir/src/Command/Replace.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Replace.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Replace.cpp
 CMakeFiles/tester.dir/src/Command/Replace.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tester.dir/src/Command/Replace.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tester.dir/src/Command/Replace.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Replace.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Replace.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Replace.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Replace.cpp
 
 CMakeFiles/tester.dir/src/Command/Replace.cpp.i: cmake_force
@@ -225,7 +240,7 @@ CMakeFiles/tester.dir/src/Command/Resize.cpp.obj: CMakeFiles/tester.dir/flags.ma
 CMakeFiles/tester.dir/src/Command/Resize.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Resize.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Resize.cpp
 CMakeFiles/tester.dir/src/Command/Resize.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tester.dir/src/Command/Resize.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tester.dir/src/Command/Resize.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Resize.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Resize.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Resize.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Resize.cpp
 
 CMakeFiles/tester.dir/src/Command/Resize.cpp.i: cmake_force
@@ -240,7 +255,7 @@ CMakeFiles/tester.dir/src/Command/Rotate.cpp.obj: CMakeFiles/tester.dir/flags.ma
 CMakeFiles/tester.dir/src/Command/Rotate.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Rotate.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Rotate.cpp
 CMakeFiles/tester.dir/src/Command/Rotate.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tester.dir/src/Command/Rotate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tester.dir/src/Command/Rotate.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Rotate.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Rotate.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Rotate.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Rotate.cpp
 
 CMakeFiles/tester.dir/src/Command/Rotate.cpp.i: cmake_force
@@ -255,7 +270,7 @@ CMakeFiles/tester.dir/src/Command/Rotate_left.cpp.obj: CMakeFiles/tester.dir/fla
 CMakeFiles/tester.dir/src/Command/Rotate_left.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Rotate_left.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Rotate_left.cpp
 CMakeFiles/tester.dir/src/Command/Rotate_left.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tester.dir/src/Command/Rotate_left.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tester.dir/src/Command/Rotate_left.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Rotate_left.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Rotate_left.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Rotate_left.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Rotate_left.cpp
 
 CMakeFiles/tester.dir/src/Command/Rotate_left.cpp.i: cmake_force
@@ -270,7 +285,7 @@ CMakeFiles/tester.dir/src/Command/Rotate_right.cpp.obj: CMakeFiles/tester.dir/fl
 CMakeFiles/tester.dir/src/Command/Rotate_right.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Rotate_right.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Rotate_right.cpp
 CMakeFiles/tester.dir/src/Command/Rotate_right.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tester.dir/src/Command/Rotate_right.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tester.dir/src/Command/Rotate_right.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Rotate_right.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Rotate_right.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Rotate_right.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Rotate_right.cpp
 
 CMakeFiles/tester.dir/src/Command/Rotate_right.cpp.i: cmake_force
@@ -285,7 +300,7 @@ CMakeFiles/tester.dir/src/Command/Save.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/Save.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Save.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Save.cpp
 CMakeFiles/tester.dir/src/Command/Save.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tester.dir/src/Command/Save.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/Command/Save.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Save.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Save.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Save.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Save.cpp
 
 CMakeFiles/tester.dir/src/Command/Save.cpp.i: cmake_force
@@ -300,7 +315,7 @@ CMakeFiles/tester.dir/src/Command/Scaleup.cpp.obj: CMakeFiles/tester.dir/flags.m
 CMakeFiles/tester.dir/src/Command/Scaleup.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Scaleup.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Scaleup.cpp
 CMakeFiles/tester.dir/src/Command/Scaleup.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/Command/Scaleup.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Command/Scaleup.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Scaleup.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Scaleup.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Scaleup.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Scaleup.cpp
 
 CMakeFiles/tester.dir/src/Command/Scaleup.cpp.i: cmake_force
@@ -315,7 +330,7 @@ CMakeFiles/tester.dir/src/Command/Slide.cpp.obj: CMakeFiles/tester.dir/flags.mak
 CMakeFiles/tester.dir/src/Command/Slide.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/Slide.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Slide.cpp
 CMakeFiles/tester.dir/src/Command/Slide.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Command/Slide.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/src/Command/Slide.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Slide.cpp.obj -MF CMakeFiles\tester.dir\src\Command\Slide.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\Slide.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\Slide.cpp
 
 CMakeFiles/tester.dir/src/Command/Slide.cpp.i: cmake_force
@@ -330,7 +345,7 @@ CMakeFiles/tester.dir/src/Command/h_mirror.cpp.obj: CMakeFiles/tester.dir/flags.
 CMakeFiles/tester.dir/src/Command/h_mirror.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/h_mirror.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/h_mirror.cpp
 CMakeFiles/tester.dir/src/Command/h_mirror.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/src/Command/h_mirror.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/tester.dir/src/Command/h_mirror.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/h_mirror.cpp.obj -MF CMakeFiles\tester.dir\src\Command\h_mirror.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\h_mirror.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\h_mirror.cpp
 
 CMakeFiles/tester.dir/src/Command/h_mirror.cpp.i: cmake_force
@@ -345,7 +360,7 @@ CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.obj: CMakeFiles/tester.dir/f
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/to_gray_scale.cpp
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.obj -MF CMakeFiles\tester.dir\src\Command\to_gray_scale.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\to_gray_scale.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\to_gray_scale.cpp
 
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.i: cmake_force
@@ -360,7 +375,7 @@ CMakeFiles/tester.dir/src/Command/v_mirror.cpp.obj: CMakeFiles/tester.dir/flags.
 CMakeFiles/tester.dir/src/Command/v_mirror.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Command/v_mirror.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/v_mirror.cpp
 CMakeFiles/tester.dir/src/Command/v_mirror.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/tester.dir/src/Command/v_mirror.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/tester.dir/src/Command/v_mirror.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/v_mirror.cpp.obj -MF CMakeFiles\tester.dir\src\Command\v_mirror.cpp.obj.d -o CMakeFiles\tester.dir\src\Command\v_mirror.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Command\v_mirror.cpp
 
 CMakeFiles/tester.dir/src/Command/v_mirror.cpp.i: cmake_force
@@ -375,7 +390,7 @@ CMakeFiles/tester.dir/src/Image.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Image.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Image.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Image.cpp
 CMakeFiles/tester.dir/src/Image.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Image.cpp.obj -MF CMakeFiles\tester.dir\src\Image.cpp.obj.d -o CMakeFiles\tester.dir\src\Image.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Image.cpp
 
 CMakeFiles/tester.dir/src/Image.cpp.i: cmake_force
@@ -390,7 +405,7 @@ CMakeFiles/tester.dir/src/Logger.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Logger.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Logger.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Logger.cpp
 CMakeFiles/tester.dir/src/Logger.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Logger.cpp.obj -MF CMakeFiles\tester.dir\src\Logger.cpp.obj.d -o CMakeFiles\tester.dir\src\Logger.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Logger.cpp
 
 CMakeFiles/tester.dir/src/Logger.cpp.i: cmake_force
@@ -405,7 +420,7 @@ CMakeFiles/tester.dir/src/PNG.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/PNG.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/PNG.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/PNG.cpp
 CMakeFiles/tester.dir/src/PNG.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/PNG.cpp.obj -MF CMakeFiles\tester.dir\src\PNG.cpp.obj.d -o CMakeFiles\tester.dir\src\PNG.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\PNG.cpp
 
 CMakeFiles/tester.dir/src/PNG.cpp.i: cmake_force
@@ -420,7 +435,7 @@ CMakeFiles/tester.dir/src/Scrim.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Scrim.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Scrim.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Scrim.cpp
 CMakeFiles/tester.dir/src/Scrim.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Scrim.cpp.obj -MF CMakeFiles\tester.dir\src\Scrim.cpp.obj.d -o CMakeFiles\tester.dir\src\Scrim.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Scrim.cpp
 
 CMakeFiles/tester.dir/src/Scrim.cpp.i: cmake_force
@@ -435,7 +450,7 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/ScrimParser.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/ScrimParser.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/ScrimParser.cpp
 CMakeFiles/tester.dir/src/ScrimParser.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/ScrimParser.cpp.obj -MF CMakeFiles\tester.dir\src\ScrimParser.cpp.obj.d -o CMakeFiles\tester.dir\src\ScrimParser.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\ScrimParser.cpp
 
 CMakeFiles/tester.dir/src/ScrimParser.cpp.i: cmake_force
@@ -450,7 +465,7 @@ CMakeFiles/tester.dir/src/Utils.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Utils.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/src/Utils.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Utils.cpp
 CMakeFiles/tester.dir/src/Utils.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Utils.cpp.obj -MF CMakeFiles\tester.dir\src\Utils.cpp.obj.d -o CMakeFiles\tester.dir\src\Utils.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\src\Utils.cpp
 
 CMakeFiles/tester.dir/src/Utils.cpp.i: cmake_force
@@ -465,7 +480,7 @@ CMakeFiles/tester.dir/main/Tester.cpp.obj: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/main/Tester.cpp.obj: CMakeFiles/tester.dir/includes_CXX.rsp
 CMakeFiles/tester.dir/main/Tester.cpp.obj: C:/Users/Daniel/CLionProjects/Projeto_14.08/main/Tester.cpp
 CMakeFiles/tester.dir/main/Tester.cpp.obj: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/main/Tester.cpp.obj -MF CMakeFiles\tester.dir\main\Tester.cpp.obj.d -o CMakeFiles\tester.dir\main\Tester.cpp.obj -c C:\Users\Daniel\CLionProjects\Projeto_14.08\main\Tester.cpp
 
 CMakeFiles/tester.dir/main/Tester.cpp.i: cmake_force
@@ -482,6 +497,7 @@ tester_OBJECTS = \
 "CMakeFiles/tester.dir/src/Command.cpp.obj" \
 "CMakeFiles/tester.dir/src/Command/Add.cpp.obj" \
 "CMakeFiles/tester.dir/src/Command/Blank.cpp.obj" \
+"CMakeFiles/tester.dir/src/Command/Chain.cpp.obj" \
 "CMakeFiles/tester.dir/src/Command/Crop.cpp.obj" \
 "CMakeFiles/tester.dir/src/Command/Fill.cpp.obj" \
 "CMakeFiles/tester.dir/src/Command/Invert.cpp.obj" \
@@ -513,6 +529,7 @@ tester.exe: CMakeFiles/tester.dir/src/Color.cpp.obj
 tester.exe: CMakeFiles/tester.dir/src/Command.cpp.obj
 tester.exe: CMakeFiles/tester.dir/src/Command/Add.cpp.obj
 tester.exe: CMakeFiles/tester.dir/src/Command/Blank.cpp.obj
+tester.exe: CMakeFiles/tester.dir/src/Command/Chain.cpp.obj
 tester.exe: CMakeFiles/tester.dir/src/Command/Crop.cpp.obj
 tester.exe: CMakeFiles/tester.dir/src/Command/Fill.cpp.obj
 tester.exe: CMakeFiles/tester.dir/src/Command/Invert.cpp.obj
@@ -540,7 +557,7 @@ tester.exe: CMakeFiles/tester.dir/build.make
 tester.exe: CMakeFiles/tester.dir/linkLibs.rsp
 tester.exe: CMakeFiles/tester.dir/objects1.rsp
 tester.exe: CMakeFiles/tester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable tester.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Daniel\CLionProjects\Projeto_14.08\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable tester.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tester.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/runscrim.dir/src/Command/Add.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj.d"
+  "CMakeFiles/runscrim.dir/src/Command/Chain.cpp.obj"
+  "CMakeFiles/runscrim.dir/src/Command/Chain.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Crop.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command/Crop.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Fill.cpp.obj"

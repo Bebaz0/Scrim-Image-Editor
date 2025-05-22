@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command.cpp" "CMakeFiles/runscrim.dir/src/Command.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command.cpp.obj.d"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Add.cpp" "CMakeFiles/runscrim.dir/src/Command/Add.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Add.cpp.obj.d"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Blank.cpp" "CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj.d"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Chain.cpp" "CMakeFiles/runscrim.dir/src/Command/Chain.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Chain.cpp.obj.d"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Crop.cpp" "CMakeFiles/runscrim.dir/src/Command/Crop.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Crop.cpp.obj.d"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Fill.cpp" "CMakeFiles/runscrim.dir/src/Command/Fill.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Fill.cpp.obj.d"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Invert.cpp" "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj" "gcc" "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj.d"

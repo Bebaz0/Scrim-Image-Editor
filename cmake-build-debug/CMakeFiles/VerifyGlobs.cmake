@@ -9,6 +9,7 @@ set(OLD_GLOB
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command.cpp"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Add.cpp"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Blank.cpp"
+  "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Chain.cpp"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Crop.cpp"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Fill.cpp"
   "C:/Users/Daniel/CLionProjects/Projeto_14.08/src/Command/Invert.cpp"

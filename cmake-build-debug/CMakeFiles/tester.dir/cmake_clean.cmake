@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Command/Add.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Blank.cpp.obj"
   "CMakeFiles/tester.dir/src/Command/Blank.cpp.obj.d"
+  "CMakeFiles/tester.dir/src/Command/Chain.cpp.obj"
+  "CMakeFiles/tester.dir/src/Command/Chain.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Crop.cpp.obj"
   "CMakeFiles/tester.dir/src/Command/Crop.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Fill.cpp.obj"
