@@ -9,7 +9,7 @@
 
 
 namespace prog{
-    namespace crop{
+    namespace command{
         class Crop : public Command {
             public:
                 Crop(int x, int y, int width, int height);

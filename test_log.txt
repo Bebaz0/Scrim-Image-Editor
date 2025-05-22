@@ -62,41 +62,85 @@ Command not recognized: 'chain'
 Error while parsing command
 Scrim parse failed
 >>> [15] crop1 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'Crop'
+Applying command 'Save filename:output/crop1.png'
 >>> [16] crop2 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/dead-combo.png'
+Applying command 'Crop'
+Applying command 'Save filename:output/crop2.png'
 >>> [17] crop3 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'Crop'
+Applying command 'Crop'
+Applying command 'Save filename:output/crop3.png'
 >>> [18] crop4 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'Crop'
+Applying command 'Save filename:output/crop4.png'
 >>> [19] crop5 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'Crop'
+Applying command 'Crop'
+Applying command 'Save filename:output/crop5.png'
 >>> [20] crop6 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'Crop'
+Applying command 'Crop'
+Applying command 'Crop'
+Applying command 'Save filename:output/crop6.png'
 >>> [21] extra1 <<<
-Command not recognized: 'rotate_right'
-Error while parsing command
-Scrim parse failed
+Applying command 'Blank w:1366 h:600 fill:255:255:255'
+Applying command 'Add'
+Applying command 'Add'
+Applying command 'Rotate_left'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'replace'
+Applying command 'replace'
+Applying command 'Invert'
+Applying command 'Invert'
+Applying command 'Save filename:output/extra1.png'
 >>> [22] extra2 <<<
-Command not recognized: 'rotate_right'
-Error while parsing command
-Scrim parse failed
+Applying command 'Blank w:1366 h:600 fill:255:255:255'
+Applying command 'Add'
+Applying command 'Add'
+Applying command 'h_mirror'
+Applying command 'v_mirror'
+Applying command 'Rotate_left'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'to_gray_scale'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'replace'
+Applying command 'replace'
+Applying command 'Invert'
+Applying command 'v_mirror'
+Applying command 'h_mirror'
+Applying command 'Invert'
+Applying command 'Save filename:output/extra2.png'
 >>> [23] extra3 <<<
-Command not recognized: 'rotate_right'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/escher-angels-demons.png'
+Applying command 'Invert'
+Applying command 'Rotate_left'
+Applying command 'h_mirror'
+Applying command 'Save filename:output/extra3-tmp1.png'
+Applying command 'Open filename:input/escher-angels-demons.png'
+Applying command 'Rotate_right'
+Applying command 'v_mirror'
+Applying command 'Invert'
+Applying command 'Save filename:output/extra3-tmp2.png'
+Applying command 'Blank w:1544 h:1600 fill:0:0:0'
+Applying command 'Add'
+Applying command 'Add'
+Applying command 'Add'
+Applying command 'Add'
+Applying command 'Save filename:output/extra3.png'
 >>> [24] extra4 <<<
 Applying command 'Blank w:750 h:380 fill:0:0:0'
 Applying command 'Fill'
@@ -216,25 +260,30 @@ Applying command 'Rotate_left'
 Applying command 'Rotate_left'
 Applying command 'Save filename:output/rotate_left3.png'
 >>> [49] rotate_left_rotate_right1 <<<
-Command not recognized: 'rotate_right'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/lion.png'
+Applying command 'Rotate_left'
+Applying command 'Rotate_right'
+Applying command 'Save filename:output/rotate_left_rotate_right1.png'
 >>> [50] rotate_left_rotate_right2 <<<
-Command not recognized: 'rotate_right'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/escher-reptiles.png'
+Applying command 'Rotate_left'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'Save filename:output/rotate_left_rotate_right2.png'
 >>> [51] rotate_right1 <<<
-Command not recognized: 'rotate_right'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/mondrian.png'
+Applying command 'Rotate_right'
+Applying command 'Save filename:output/rotate_right1.png'
 >>> [52] rotate_right2 <<<
-Command not recognized: 'rotate_right'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/escher-hands.png'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'Save filename:output/rotate_right2.png'
 >>> [53] rotate_right3 <<<
-Command not recognized: 'rotate_right'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/escher-angels-demons.png'
+Applying command 'Rotate_right'
+Applying command 'Rotate_right'
+Applying command 'Save filename:output/rotate_right3.png'
 >>> [54] scaleup1 <<<
 Applying command 'Open filename:input/lion.png'
 Applying command 'Scaleup'
