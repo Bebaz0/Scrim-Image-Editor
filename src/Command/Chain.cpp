@@ -25,14 +25,15 @@ namespace prog {
 
         Image *Chain::apply(Image *img) {
             Image* current_image = img;
-            for (const std::string& scrim_files : scrim_files_) {
+            for (const std::string& file : scrim_files_) {
                 //Check if the file has been visited before
-                if (visited_files_.find(scrim_files) != visited_files_.end()) {
+                if (visited_files_.find(file) != visited_files_.end()) {
                     return nullptr;
                 }
-                visited_files_.insert(scrim_files);
+
+                visited_files_.insert(file);
                 //Open the scrim file
-                std::ifstream scrim_file(scrim_files);
+                std::ifstream scrim_file(file);
 
                 //Iterate through the scrim file
                 std::string line;
@@ -49,6 +50,9 @@ namespace prog {
                     //Parse the command
                     ScrimParser parser;
                     Command* cmd = parser.parse_command(command_name, args);
+                    if (cmd == nullptr) {
+                        continue;
+                    }
                     current_image = cmd->apply(current_image);
                     //Delete the command
                     delete cmd;
@@ -56,6 +60,7 @@ namespace prog {
                 //Close the scrim file
                 scrim_file.close();
             }
+
             return current_image;
 
         }

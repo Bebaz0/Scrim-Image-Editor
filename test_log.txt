@@ -46,23 +46,23 @@ Applying command 'Open filename:input/squares.png'
 Applying command 'Open filename:input/unionjack.png'
 Applying command 'Save filename:output/basic_open2.png'
 >>> [11] chain1 <<<
-Command not recognized: 'chain'
+Command not recognized: 'scrims/more-scrims/start1.scrim'
 Error while parsing command
 Scrim parse failed
 >>> [12] chain2 <<<
-Command not recognized: 'chain'
+Command not recognized: 'scrims/more-scrims/start1.scrim'
 Error while parsing command
 Scrim parse failed
 >>> [13] chain3 <<<
-Command not recognized: 'chain'
+Command not recognized: 'scrims/more-scrims/start1.scrim'
 Error while parsing command
 Scrim parse failed
 >>> [14] chain4 <<<
-Command not recognized: 'chain'
+Command not recognized: 'scrims/more-scrims/start1.scrim'
 Error while parsing command
 Scrim parse failed
 >>> [15] chain5 <<<
-Command not recognized: 'chain'
+Command not recognized: 'scrims/more-scrims/start1.scrim'
 Error while parsing command
 Scrim parse failed
 >>> [16] crop1 <<<

@@ -29,6 +29,7 @@
 #include <vector>
 
 #include <cstdlib>
+#include <sstream>
 #include <Command/Rotate_right.hpp>
 
 using std::ifstream;
@@ -182,14 +183,15 @@ namespace prog {
             return new command::Crop(x, y, w, h);
 
         }
+
         if (command_name == "chain") {
-            vector<string> scrim_files;
-            string filename;
-            while (input >> filename) {
-                scrim_files.push_back(filename);
-            }
-            return new command::Chain(scrim_files);
+            std::vector<std::string> scrim_files_;
+            static std::set<std::string> visited_files_;
+
+
+            return new command::Chain(scrim_files_);
         }
+
 
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
         return nullptr;
