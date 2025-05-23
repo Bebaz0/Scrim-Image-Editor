@@ -321,55 +321,53 @@ Applying command 'Save filename:output/scaleup3.png'
 Applying command 'Open filename:input/lion.png'
 Applying command 'Scaleup'
 Applying command 'Save filename:output/scaleup4.png'
->>> [59] scrims <<<
-Could not load image from ./expected/scrims.png
->>> [60] slide1 <<<
+>>> [59] slide1 <<<
 Applying command 'Open filename:input/lion.png'
 Applying command 'Slide'
 Applying command 'Save filename:output/slide1.png'
->>> [61] slide2 <<<
+>>> [60] slide2 <<<
 Applying command 'Open filename:input/lion.png'
 Applying command 'Slide'
 Applying command 'Save filename:output/slide2.png'
->>> [62] slide3 <<<
+>>> [61] slide3 <<<
 Applying command 'Open filename:input/lion.png'
 Applying command 'Slide'
 Applying command 'Save filename:output/slide3.png'
->>> [63] slide4 <<<
+>>> [62] slide4 <<<
 Applying command 'Open filename:input/lion.png'
 Applying command 'Slide'
 Applying command 'Save filename:output/slide4.png'
->>> [64] to_gray_scale1 <<<
+>>> [63] to_gray_scale1 <<<
 Applying command 'Open filename:input/pacman.png'
 Applying command 'to_gray_scale'
 Applying command 'Save filename:output/to_gray_scale1.png'
->>> [65] to_gray_scale2 <<<
+>>> [64] to_gray_scale2 <<<
 Applying command 'Open filename:input/pacman.png'
 Applying command 'to_gray_scale'
 Applying command 'to_gray_scale'
 Applying command 'Save filename:output/to_gray_scale2.png'
->>> [66] to_gray_scale3 <<<
+>>> [65] to_gray_scale3 <<<
 Applying command 'Open filename:input/tetris.png'
 Applying command 'to_gray_scale'
 Applying command 'Save filename:output/to_gray_scale3.png'
->>> [67] to_gray_scale4 <<<
+>>> [66] to_gray_scale4 <<<
 Applying command 'Open filename:input/mandelbrot.png'
 Applying command 'to_gray_scale'
 Applying command 'Save filename:output/to_gray_scale4.png'
->>> [68] v_mirror1 <<<
+>>> [67] v_mirror1 <<<
 Applying command 'Open filename:input/symmetric.png'
 Applying command 'v_mirror'
 Applying command 'Save filename:output/v_mirror1.png'
->>> [69] v_mirror2 <<<
+>>> [68] v_mirror2 <<<
 Applying command 'Open filename:input/symmetric.png'
 Applying command 'v_mirror'
 Applying command 'v_mirror'
 Applying command 'Save filename:output/v_mirror2.png'
->>> [70] v_mirror3 <<<
+>>> [69] v_mirror3 <<<
 Applying command 'Open filename:input/escher-hands.png'
 Applying command 'v_mirror'
 Applying command 'Save filename:output/v_mirror3.png'
->>> [71] v_mirror4 <<<
+>>> [70] v_mirror4 <<<
 Applying command 'Open filename:input/escher-angels-demons.png'
 Applying command 'v_mirror'
 Applying command 'Save filename:output/v_mirror4.png'
