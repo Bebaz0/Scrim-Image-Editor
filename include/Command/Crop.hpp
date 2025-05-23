@@ -12,6 +12,11 @@ namespace prog{
     namespace command{
         class Crop : public Command {
             public:
+                ///@brief Crops the image to the specified dimensions.
+                ///@param x X coordinate of the top-left corner of the crop.
+                ///@param y Y coordinate of the top-left corner of the crop.
+                ///@param width Width of the crop.
+                ///@param height Height of the crop.
                 Crop(int x, int y, int width, int height);
                 Image *apply(Image *img) override;
             private:

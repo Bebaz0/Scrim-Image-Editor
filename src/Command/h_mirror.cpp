@@ -1,18 +1,14 @@
-#include "Command/h_mirror.hpp"
-#include "Image.hpp"
-#include "Color.hpp"
+#include <Command/h_mirror.hpp>
+
 
 namespace prog {
     namespace command {
-        H_mirror::H_mirror() : Command("h_mirror") {}
+        H_mirror::H_mirror() : Mirror("H_mirror") {}
 
-        Image* H_mirror::apply(Image* input) {
-            for (int y = 0; y < input->height(); ++y) {
-                for (int x = 0; x < input->width() / 2; ++x) {
-                    std::swap(input->at(x, y), input->at(input->width() - 1 - x, y));
-                }
-            }
-            return input;
+        void H_mirror::direction(int x, int y, int width, int height, int& new_x, int& new_y) const {
+            // For horizontal mirror
+            new_x = width - 1 - x;
+            new_y = y;
         }
     }
 }

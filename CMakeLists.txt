@@ -37,6 +37,8 @@ add_executable(runscrim
         src/Command/Crop.cpp
         include/Command/Chain.hpp
         src/Command/Chain.cpp
+        include/Command/Mirror.hpp
+        src/Command/Mirror.cpp
 )
 
 # Create tester executable

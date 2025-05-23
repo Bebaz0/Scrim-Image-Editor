@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/runscrim.dir/src/Command/Fill.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.obj.d"
+  "CMakeFiles/runscrim.dir/src/Command/Mirror.cpp.obj"
+  "CMakeFiles/runscrim.dir/src/Command/Mirror.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Move.cpp.obj"
   "CMakeFiles/runscrim.dir/src/Command/Move.cpp.obj.d"
   "CMakeFiles/runscrim.dir/src/Command/Open.cpp.obj"

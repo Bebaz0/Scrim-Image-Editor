@@ -12,6 +12,8 @@ namespace prog {
     namespace command {
         class Open : public Command {
         public:
+
+            /// @brief Constructor to initialize the command with the name of the inherited command
             Open(std::string filename);
 
             ~Open();

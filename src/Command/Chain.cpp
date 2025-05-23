@@ -22,6 +22,7 @@ namespace prog {
         Chain::Chain(const std::vector<std::string> &scrim_files)
                    : Command("Chain"), scrim_files_(scrim_files) {}
 
+
         void Chain::resetVisitedFiles() {
             visited_files_.clear();
             chain_depth = 0;  //Reset chain depth
@@ -36,9 +37,11 @@ namespace prog {
 
             //Increment depth counter and check limit
             chain_depth++;
-            if (chain_depth > 20) {
+
+            //Safety measure to avoid infinite loops. 16 is arbitrary but enough.
+            if (chain_depth > 16) {
                 chain_depth--;  //Decrement before returning
-                return current_image;  //das return À imagem original para evitar loops infinitos
+                return current_image;  //return the original image to prevent infinite loops
             }
 
             for (const std::string& file : scrim_files_) {
@@ -57,12 +60,12 @@ namespace prog {
                 // Mark this file as visited
                 visited_files_.insert(file);
 
-                // ve o conteudo do arquivo
+                // Open the file and read its content
                 std::ifstream inFile(file);
                 std::string line;
                 std::string modifiedContent;
 
-                // filtras as linhas que começam com save
+                // Read the file line by line and splits the command and the arguments
                 while (std::getline(inFile, line)) {
                     std::istringstream iss(line);
                     std::string firstWord;

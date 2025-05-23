@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Command/Fill.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Invert.cpp.obj"
   "CMakeFiles/tester.dir/src/Command/Invert.cpp.obj.d"
+  "CMakeFiles/tester.dir/src/Command/Mirror.cpp.obj"
+  "CMakeFiles/tester.dir/src/Command/Mirror.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Move.cpp.obj"
   "CMakeFiles/tester.dir/src/Command/Move.cpp.obj.d"
   "CMakeFiles/tester.dir/src/Command/Open.cpp.obj"

@@ -188,6 +188,8 @@ namespace prog {
             std::vector<std::string> scrim_files_;
             string filename;
 
+            //Read filenames until "end" is found
+            //The read files are stored in scrim_files_
             while (input >> filename&& filename != "end") {
                 scrim_files_.push_back(filename);
             }

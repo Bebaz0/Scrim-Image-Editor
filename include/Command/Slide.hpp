@@ -10,6 +10,9 @@ namespace prog{
     namespace command{
         class Slide : public Command{
         public:
+            ///@brief Constructor for Slide command
+            ///@param x The x slide factor
+            ///@param y The y slide factor
             Slide(int x, int y);
             Image *apply(Image *img) override;
 

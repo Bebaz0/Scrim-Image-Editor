@@ -11,7 +11,7 @@ namespace prog{
     namespace command{
         class to_gray_scale : public Command{
         public:
-            ///brief Applies the gray scale filter to the image
+            ///@brief Applies the gray scale filter to the image.
             to_gray_scale();
 
 

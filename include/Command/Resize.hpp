@@ -8,8 +8,10 @@ namespace prog {
         class Resize : public Command {
         public:
             ///@brief Resizes the selection of the image to the width and height of the original image
-            ///x,y area to resize
-            ///w,h width and height of the area to resize
+            ///@param x area to resize
+            ///@param y area to resize
+            ///@param w width of the area to resize
+            ///@param h height of the area to resize
             Resize(int x, int y, int w, int h);
 
             Image *apply(Image *img) override;

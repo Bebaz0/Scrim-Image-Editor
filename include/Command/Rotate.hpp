@@ -17,9 +17,12 @@ namespace prog {
             Rotate(const std::string& name);
 
             ///@brief Changes the direction of the pixel depending on the rotation
-            ///x,y coordinates of the original pixel
-            ///width,height dimensions of the image
-            ///new_x,new_y coordinates of the rotated pixel
+            ///@param x coordinates of the original pixel
+            ///@param y coordinates of the original pixel
+            ///@param width dimensions of the image
+            ///@param height dimensions of the image
+            ///@param new_x coordinates of the rotated pixel
+            ///@param new_y coordinates of the rotated pixel
             virtual void direction(int x, int y, int width, int height, int& new_x, int& new_y) const = 0;
 
         public:

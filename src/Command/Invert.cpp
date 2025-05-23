@@ -9,7 +9,7 @@ namespace prog {
     namespace command {
         Invert::Invert() : Command("Invert") {}
 
-            Image *Invert::apply(Image *img) {
+        Image *Invert::apply(Image *img) {
                 int width = img->width();
                 int height = img->height();
 

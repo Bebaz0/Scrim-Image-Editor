@@ -169,7 +169,6 @@ namespace prog {
           }
         }
 
-        // todo: only push if fname ends in .scrim
         string scrim = fname.substr(0, fname.find_last_of('.'));
         scrims_to_execute.push_back(scrim);
         // std::cout << "Adding file " << scrim<< " from '" << entry << "'\n";
