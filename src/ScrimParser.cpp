@@ -20,6 +20,8 @@
 #include "Command/Resize.hpp"
 #include "Command/Scaleup.hpp"
 #include "Command/Crop.hpp"
+#include "Command/Rotate_right.hpp"
+#include "Command/Chain.hpp"
 
 
 #include <fstream>
@@ -180,9 +182,14 @@ namespace prog {
             return new command::Crop(x, y, w, h);
 
         }
-
-
-        // TODO: implement cases for the new commands
+        if (command_name == "chain") {
+            vector<string> scrim_files;
+            string filename;
+            while (input >> filename) {
+                scrim_files.push_back(filename);
+            }
+            return new command::Chain(scrim_files);
+        }
 
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
         return nullptr;
