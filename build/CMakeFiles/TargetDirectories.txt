@@ -1,0 +1,5 @@
+/home/danielramaa/Documents/Projeto_14.08/build/CMakeFiles/runscrim.dir
+/home/danielramaa/Documents/Projeto_14.08/build/CMakeFiles/tester.dir
+/home/danielramaa/Documents/Projeto_14.08/build/CMakeFiles/delivery.dir
+/home/danielramaa/Documents/Projeto_14.08/build/CMakeFiles/edit_cache.dir
+/home/danielramaa/Documents/Projeto_14.08/build/CMakeFiles/rebuild_cache.dir
