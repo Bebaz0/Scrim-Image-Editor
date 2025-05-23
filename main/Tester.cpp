@@ -8,6 +8,7 @@
 #include "PNG.hpp"
 #include "Utils.h"
 #include "Logger.hpp"
+#include "Command/Chain.hpp"
 
 // C++ library headers
 #include <algorithm>
@@ -51,6 +52,9 @@ namespace prog {
     std::ofstream logfile = std::ofstream("test_log.txt");
 
     bool test_script(const string &id) {
+      //reset visited files before each test
+      prog::command::Chain::resetVisitedFiles();
+      
       string scrim_file = root_path + "/" + SCRIMS_FOLDER + "/" + id + ".scrim";
       string out_file = root_path + "/" + OUTPUT_FOLDER + "/" + id + ".png";
       string exp_file = root_path + "/" + EXPECTED_FOLDER + "/" + id + ".png";

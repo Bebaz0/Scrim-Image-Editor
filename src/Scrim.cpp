@@ -18,13 +18,20 @@ namespace prog {
     };
 
     Image *Scrim::run(Image *img) {
-        for (Command *c: commands) {
-            *Logger::out() << "Applying command '" << c->toString() << "'\n";
-            img = c->apply(img);
-
+        Image* current = img;
+        size_t start = 0;
+        //Skip leading blank/open if input image is not null
+        if (current != nullptr && !commands.empty()) {
+            std::string name = commands[0]->name();
+            if (name == "Blank" || name == "Open") {
+                start = 1;
+            }
         }
-
-        return img;
+        for (size_t i = start; i < commands.size(); ++i) {
+            *Logger::out() << "Applying command '" << commands[i]->toString() << "'\n";
+            current = commands[i]->apply(current);
+        }
+        return current;
     }
 
     Image *Scrim::run() {

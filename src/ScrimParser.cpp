@@ -186,8 +186,11 @@ namespace prog {
 
         if (command_name == "chain") {
             std::vector<std::string> scrim_files_;
-            static std::set<std::string> visited_files_;
+            string filename;
 
+            while (input >> filename&& filename != "end") {
+                scrim_files_.push_back(filename);
+            }
 
             return new command::Chain(scrim_files_);
         }

@@ -3,66 +3,104 @@
 //
 
 #include "Command/Chain.hpp"
-
-#include <fstream>
-#include <ScrimParser.hpp>
-#include <sstream>
-#include <Command/Blank.hpp>
-#include <Command/Open.hpp>
-#include <Command/Save.hpp>
-#include <Command/Open.hpp>
-
+#include "ScrimParser.hpp"
 #include "Image.hpp"
 #include "Color.hpp"
+#include "Logger.hpp"
+#include <fstream>
+#include <string>
+#include <sstream>
 
 namespace prog {
     namespace command {
-        
+
         std::set<std::string> Chain::visited_files_;
+
+        //Use counter to limit recursion
+        static int chain_depth = 0;
 
         Chain::Chain(const std::vector<std::string> &scrim_files)
                    : Command("Chain"), scrim_files_(scrim_files) {}
 
+        void Chain::resetVisitedFiles() {
+            visited_files_.clear();
+            chain_depth = 0;  //Reset chain depth
+        }
+
         Image *Chain::apply(Image *img) {
-            Image* current_image = img;
-            for (const std::string& file : scrim_files_) {
-                //Check if the file has been visited before
-                if (visited_files_.find(file) != visited_files_.end()) {
-                    return nullptr;
-                }
-
-                visited_files_.insert(file);
-                //Open the scrim file
-                std::ifstream scrim_file(file);
-
-                //Iterate through the scrim file
-                std::string line;
-                while (std::getline(scrim_file, line)) {
-                    //Get the command from the line
-                    std::string command_name = line.substr(0, line.find(' '));
-                    if (command_name == "blank" || command_name =="open" || command_name == "save"){
-                        //Skips to the next line
-                        continue;
-                    }
-
-                    //Removes the command name from the line
-                    std::istringstream args(line.substr(line.find(' ') + 1));
-                    //Parse the command
-                    ScrimParser parser;
-                    Command* cmd = parser.parse_command(command_name, args);
-                    if (cmd == nullptr) {
-                        continue;
-                    }
-                    current_image = cmd->apply(current_image);
-                    //Delete the command
-                    delete cmd;
-                }
-                //Close the scrim file
-                scrim_file.close();
+            if (img == nullptr) {
+                return nullptr;
             }
 
-            return current_image;
+            Image* current_image = img;
 
+            //Increment depth counter and check limit
+            chain_depth++;
+            if (chain_depth > 20) {
+                chain_depth--;  //Decrement before returning
+                return current_image;  //das return À imagem original para evitar loops infinitos
+            }
+
+            for (const std::string& file : scrim_files_) {
+                //Check if file exists
+                std::ifstream file_check(file);
+                if (!file_check.good()) {
+                    continue;
+                }
+                file_check.close();
+
+                // Check if file has already been visited
+                if (visited_files_.find(file) != visited_files_.end()) {
+                    continue;
+                }
+
+                // Mark this file as visited
+                visited_files_.insert(file);
+
+                // ve o conteudo do arquivo
+                std::ifstream inFile(file);
+                std::string line;
+                std::string modifiedContent;
+
+                // filtras as linhas que começam com save
+                while (std::getline(inFile, line)) {
+                    std::istringstream iss(line);
+                    std::string firstWord;
+                    if (iss >> firstWord && firstWord != "save") {
+                        modifiedContent += line + "\n";
+                    }
+                }
+
+                // Parse the modified content
+                std::istringstream content(modifiedContent);
+                ScrimParser parser;
+                Scrim* scrim = parser.parseScrim(content);
+
+                if (scrim != nullptr) {
+                    // Apply the scrim to the current image
+                    Image* result = scrim->run(current_image);
+
+                    // Only update current_image if result is not null
+                    if (result != nullptr) {
+                        // If the result is different from the input, we need to
+                        // delete the old image to avoid memory leaks
+                        if (result != current_image && current_image != img) {
+                            delete current_image;
+                        }
+                        current_image = result;
+                    }
+
+                    delete scrim;
+                }
+
+                // Remove this file from visited_files_ after processing
+                visited_files_.erase(file);
+            }
+
+            // Decrement depth counter before returning
+            chain_depth--;
+
+            return current_image;
         }
     }
 }
