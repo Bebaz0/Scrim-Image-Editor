@@ -12,7 +12,7 @@ The **baseline code and structure were provided by FEUP**, and subsequently exte
 
 - **Afonso Lima**  
 - **Daniel Rama**  
-- **Diogo**
+- **Diogo Coelho**
 
 We expanded the functionality by implementing:
 - New **commands**
@@ -105,7 +105,7 @@ Save filename:output/add1.png
 
 - **Afonso Lima**
 - **Daniel Rama**
-- **Diogo**
+- **Diogo Coelho**
 
 ---
 
